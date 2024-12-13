@@ -2,7 +2,7 @@
     "protocol": "sftp",
     "host": "ftp.dlptest.com/",
     "port": 22,
-    "user": "dlpuser",
+    "user": "dlpuser1",
     "pass": "rNrKYTX9g7z3RgJRmxWuGHbeu",
     "remote": "/remote/directory/path",
     "local": "/local/directory/path",
