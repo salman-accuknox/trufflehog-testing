@@ -30,7 +30,7 @@ jobs:
           mkdir -p trufflehog-results
           git config --global credential.helper store
           echo "https://username:${{ secrets.GH_TOKEN }}@github.com" > ~/.git-credentials
-          trufflehog --no-update github --repo=https://github.com/udit-uniyal/trufflehog-testing --since_commit=cae5a0e7462e644a0fcbeb71f714e4563af612f6 --token=${{ secrets.GH_TOKEN }} --json > trufflehog-results/trufflehog-results.json
+          trufflehog --no-update github --repo=https://github.com/salman-accuknox/trufflehog-testing --since_commit=cae5a0e7462e644a0fcbeb71f714e4563af612f6 --token=${{ secrets.GH_TOKEN }} --json > trufflehog-results/trufflehog-results.json
         continue-on-error: true
 
       - name: Upload Results
