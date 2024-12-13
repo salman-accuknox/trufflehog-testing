@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - main
-      - development
+      - developement
   pull_request:
     branches:
       - main
-      - development
+      - developement
 
 jobs:
   trufflehog-scan:
